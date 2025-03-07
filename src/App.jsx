@@ -15,7 +15,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import logo from "./assets/logo.png";
+import logo from "./assets/AILogo.png";
 
 function App() {
   const [emailContent, setEmailContent] = useState("");
@@ -86,11 +86,12 @@ function App() {
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign="justify">
           Tired of spending time crafting email responses? Our AI-Powered Email
-          Reply Generator makes it effortless! Built using Gemini AI Free API,
-          Spring Boot, and React.js, this tool generates professional, casual,
-          or friendly email replies in seconds. We also developed a Google
-          Chrome extension that seamlessly integrates with Gmail, allowing you
-          to generate responses directly from your inbox.
+          Reply Generator <b style={{ color: "#2196f3" }}>(MailCute)</b>makes it
+          effortless! Built using Gemini AI Free API, Spring Boot, and React.js,
+          this tool generates professional, casual, or friendly email replies in
+          seconds. We also developed a Google Chrome extension that seamlessly
+          integrates with Gmail, allowing you to generate responses directly
+          from your inbox.
         </Typography>
         <Typography
           variant="body1"
